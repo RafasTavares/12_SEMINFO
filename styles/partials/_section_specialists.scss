@@ -6,17 +6,17 @@
   }
 }
 .specialist-item {
-  width:8%;
+  width:15%;
 }
 .specialist-name {
-  font-size: rem(16px);
+  font-size: rem(11px);
   margin-bottom: 0;
   @media screen and (min-width: $minor-viewport) {
     font-size: rem(18px);
   }
 }
 .specialist-twitter {
-  font-size: rem(16px);
+  font-size: rem(11px);
   font-weight: 400;
   margin: 0;
 }

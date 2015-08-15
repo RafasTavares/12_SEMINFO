@@ -681,7 +681,9 @@ a {
 
 .speaker-info {
   margin-left: -10%;
-  width: 120%; }
+  width: 120%; 
+text-align: justify;
+}
   @media screen and (min-width: 37.5rem) {
     .speaker-info {
       margin-left: 20%;
@@ -712,7 +714,7 @@ a {
       font-size: 1.25rem; } }
 
 .specialist-item {
-  width: 8%;
+  width: 15%;
    }
 
 .specialist-name {
