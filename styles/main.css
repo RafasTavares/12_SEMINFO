@@ -712,13 +712,8 @@ a {
       font-size: 1.25rem; } }
 
 .specialist-item {
-  width: 20%; }
-  .specialist-item:nth-child(3n-2) {
-    margin-top: 0; }
-  .specialist-item:nth-child(3n-1) {
-    margin-top: 5%; }
-  .specialist-item:nth-child(3n) {
-    margin-top: 10%; }
+  width: 8%;
+   }
 
 .specialist-name {
   font-size: 1rem;
