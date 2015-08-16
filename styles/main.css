@@ -482,7 +482,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(../images/unit.png) bottom left;
+    background: url(../images/header-building.png) bottom left;
     background-size: cover;
     z-index: 1; }
   @media screen and (min-width: 50rem) {
@@ -522,15 +522,15 @@ a {
     .event-info {
       bottom: 0;
       top: 65vh;
-      left: 80vh;
-      right: auto; } }
+      right: 80vh;
+      left: auto; } }
   @media screen and (min-width: 68.75rem) {
     .event-info {
       font-size: 2.125rem;
       top: auto;
       bottom: 14vw;
-      left: 55vw;
-      right: auto; } }
+      right: 55vw;
+      left: auto; } }
 
 .event-head {
   color: white;
