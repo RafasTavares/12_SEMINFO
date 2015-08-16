@@ -493,20 +493,22 @@ a {
   top: -48vw;
   bottom: -12vw;
   left: -30vw;
-  right: -30vw; }
+    right: -30vw; }
   @media screen and (min-width: 50rem) {
     .logo {
       top: 0;
       left: 0;
       bottom: 0;
       right: 0; } }
-
+.font{
+font-size: 2em;
+}
 .event-info {
   display: inline-block;
   text-align: center;
   position: absolute;
   font-size: 1.125rem;
-  bottom: 6vw;
+  bottom:2% ;
   left: 0;
   right: 0;
   z-index: 2; }
@@ -515,17 +517,15 @@ a {
       font-size: 1.5rem; } }
   @media screen and (min-width: 50rem) {
     .event-info {
-      bottom: 0;
-      top: 65vh;
-      right: 80vh;
-      left: auto; } }
+      bottom: 2%;
+      
+    } }
   @media screen and (min-width: 68.75rem) {
     .event-info {
       font-size: 2.125rem;
       top: auto;
-      bottom: 14vw;
-      right: 55vw;
-      left: auto; } }
+      bottom: 2%;
+     } }
 
 .event-head {
   color: white;

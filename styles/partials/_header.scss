@@ -57,21 +57,19 @@
   @media screen and (min-width: $medium-viewport) {
     bottom: 0;
     top: 65vh;
-    left: auto;
-    right: 80vh;
+   
   }
   @media screen and (min-width: $large-viewport) {
     font-size: rem(34px);
     top: auto;
     bottom: 14vw;
-    left: auto;
-    right: 55vw;
+   
   }
 }
 .event-head {
   color: white;
   margin: .5em 0;
-  font-weight: 700;
+  font-weight: 00;
 }
 .event-head-place {
   font-weight: 100;
