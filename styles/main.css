@@ -330,16 +330,11 @@ a {
 
 .call-action-link {
   background: #191968;
-  -webkit-transform: skewX(-21deg);
-      -ms-transform: skewX(-21deg);
-          transform: skewX(-21deg); }
+ }
 
 .call-action-text {
   color: white;
-  -webkit-transform: skewX(21deg);
-      -ms-transform: skewX(21deg);
-          transform: skewX(21deg);
-  display: block;
+   display: block;
   font-weight: 700;
   line-height: 2.3; }
 
@@ -466,7 +461,7 @@ a {
   background: #3b5998; }
 
 .social-link-twitter {
-  background: #00aced; }
+    background: #00aced; }
 
 .header {
   width: 100%;
@@ -487,7 +482,7 @@ a {
     z-index: 1; }
   @media screen and (min-width: 50rem) {
     .header {
-      height: 100vh; } }
+        height: 100vh; } }
 
 .logo {
   margin: 0;
