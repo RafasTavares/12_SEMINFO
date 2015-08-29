@@ -196,7 +196,7 @@ hr {
  */
 
 mark {
-    background: #191968;
+    background: #155078; 
     color: #000;
 }
 
@@ -493,12 +493,12 @@ body {
 }
 
 a {
-    color: #191968;
+    color: #155078;
     text-decoration: none;
 }
 
 .call-action-link {
-    background: #191968;
+    background: #155078;
 }
 
 .call-action-text {
@@ -555,7 +555,7 @@ a {
     -webkit-transform: skew(21deg);
     -ms-transform: skew(21deg);
     transform: skew(21deg);
-    background-color: #191968;
+    background-color: #155078;
     left: -9999em;
 }
 
@@ -614,11 +614,11 @@ a {
 }
 
 .nav-link:hover {
-    border-bottom-color: #191968;
+    border-bottom-color: #155078;
 }
 
 .nav-link.active {
-    border-bottom-color: #191968;
+    border-bottom-color: #155078;
 }
 
 .social-list {
@@ -1145,7 +1145,7 @@ a {
 
 @media screen and (min-width: 50rem) {
     .schedule-time {
-        color: #191968;
+        color: #155078;
         font-size: 1.875rem;
         padding: 0.75rem 0;
         width: 7.25rem;
@@ -1363,7 +1363,7 @@ a {
 }
 
 .section-sponsors {
-    background-color: #191968;
+    background-color: #155078;
 }
 
 .section-sponsors .section-title {
@@ -1425,7 +1425,7 @@ a {
 }
 
 .footer {
-    background: #191968;
+    background: #155078;
     font-size: 0.875rem;
     color: white;
 }
