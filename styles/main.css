@@ -1437,3 +1437,13 @@ a {
 .credits a {
     color: rgba(255, 255, 255, 0.7);
 }
+.sponsor-item-1,
+.partner-item-1 {
+  position: relative;
+  width: 15rem;
+  font-size: 2rem;
+  padding: .1em;
+  margin: .15em rem(5px);
+  display: inline-block;
+  background-color: $overlay-dark;
+}
