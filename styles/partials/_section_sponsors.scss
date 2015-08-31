@@ -27,7 +27,7 @@
   padding: .1em;
   margin: .15em rem(5px);
   display: inline-block;
-  background-color: $overlay-dark;
+  background-color: #ccc;
 }
 .partner-item {
   width: 8rem;
@@ -43,7 +43,7 @@
 .partner-item:nth-child(odd):after {
   @extend %triangle;
   top: 100%;
-  border-top: solid .15em $overlay-dark;
+  border-top: solid .15em #ccc;
   border-left: solid 1em transparent;
 }
 .sponsor-item:nth-child(even):after,
@@ -51,5 +51,5 @@
   @extend %triangle;
   bottom: 100%;
   border-right: solid 1em transparent;
-  border-bottom: solid .15em $overlay-dark;
+  border-bottom: solid .15em #ccc;
 }
