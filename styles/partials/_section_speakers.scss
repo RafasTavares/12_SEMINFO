@@ -34,10 +34,10 @@
 }
 
 .speaker-photo {
-  display: block;
+  display: inline;
   margin: -20%;
-  width: 140%;
-  transform: skewX(-21deg);
+  width: 100%;
+  //transform: skewX(-21deg);
 }
 .speaker-info {
   margin-left: -10%;
