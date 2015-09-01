@@ -40,10 +40,8 @@
   //transform: skewX(-21deg);
 }
 .speaker-info {
-  margin-left: -10%;
   width: 120%;
   @media screen and (min-width: $minor-viewport) {
-    margin-left: 20%;
     width: auto;
   }
 }
