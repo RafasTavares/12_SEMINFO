@@ -511,13 +511,13 @@ a {
 
 .wrapper {
     max-width: 990px;
-    padding: 0 10px;
+    padding: 0;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 37.5rem) {
     .wrapper {
-        padding: 0 25px;
+        padding: 0;
     }
 }
 
@@ -575,7 +575,7 @@ a {
 
 .nav-items {
     list-style: none;
-    text-align: center;
+    text-align: center  !important;
     margin: 0;
     padding: 0;
     line-height: 4.375rem;
@@ -596,9 +596,9 @@ a {
 
 .nav-item:before {
     content: '•';
-    margin-right: 1rem;
-    font-size: 50%;
-    display: inline-block;
+    margin-right: 1rem  !important;
+    font-size: 50%  !important;
+    display: inline-block  !important;
     color: #CCC;
 }
 
@@ -893,8 +893,8 @@ a {
 
 .section-about-tail {
     background: url('../images/about.jpg') no-repeat center top;
-    background-size: cover;
-    text-align: center;
+    background-size: cover !important;
+    text-align: center !important;
 }
 
 .section-about-call-action-link {
@@ -961,7 +961,7 @@ a {
 }
 
 .speaker-info {
-    text-align: justify;
+    text-align: center;
 }
 
 @media screen and (min-width: 37.5rem) {
@@ -1027,6 +1027,7 @@ a {
 
 .specialist-activity {
     margin: 0;
+   text-align: center !improtant ;
 }
 
 .section-presenter {

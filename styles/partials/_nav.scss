@@ -43,7 +43,7 @@ $nav-height: rem(70px);
 
 .nav-items {
   list-style: none;
-  text-align: center;
+  text-align: center !important;
   margin: 0;
   padding: 0;
   line-height: $nav-height;
@@ -59,8 +59,8 @@ $nav-height: rem(70px);
   &:before {
     content: '•';
     margin-right: rem(16px);
-    font-size: 50%;
-    display: inline-block;
+    font-size: 50%  !important;
+    display: inline-block  !important;
     color: $light-grey;
   }
 }
